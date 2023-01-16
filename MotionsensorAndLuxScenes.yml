@@ -97,12 +97,6 @@ blueprint:
 mode: restart
 max_exceeded: silent
 
-variables:
-
-  scene_ambient_start: !input sun_scene_ambient_start
-  scene_night_end: !input sun_scene_night_end
-
-
 trigger:
   - platform: state
     entity_id: !input motion_entity
